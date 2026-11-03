@@ -1,0 +1,23 @@
+// Max 20 games (4 rows x 5 buttons). The 5th row holds the "Remove all" button.
+module.exports = [
+  { key: 'fivem', name: 'FiveM', emoji: '🚓', color: 0xf40552 },
+  { key: 'valorant', name: 'Valorant', emoji: '🎯', color: 0xff4655 },
+  { key: 'fortnite', name: 'Fortnite', emoji: '🪂', color: 0x9d4dff },
+  { key: 'cod', name: 'Call of Duty', emoji: '🔫', color: 0x4b5320 },
+  { key: 'cs2', name: 'CS2', emoji: '💣', color: 0xde9b35 },
+  { key: 'minecraft', name: 'Minecraft', emoji: '⛏️', color: 0x5cb85c },
+  { key: 'gta5', name: 'GTA V', emoji: '🏙️', color: 0x2ecc71 },
+  { key: 'roblox', name: 'Roblox', emoji: '🧱', color: 0xe2231a },
+  { key: 'lol', name: 'League of Legends', emoji: '⚔️', color: 0xc8aa6e },
+  { key: 'apex', name: 'Apex Legends', emoji: '🦅', color: 0xda292a },
+  { key: 'rocketleague', name: 'Rocket League', emoji: '🚗', color: 0x0078f2 },
+  { key: 'pubg', name: 'PUBG', emoji: '🪖', color: 0xf2a900 },
+  { key: 'overwatch', name: 'Overwatch 2', emoji: '🛡️', color: 0xfa9c1e },
+  { key: 'r6', name: 'Rainbow Six Siege', emoji: '🎖️', color: 0x4a90d9 },
+  { key: 'eafc', name: 'EA FC', emoji: '⚽', color: 0x1fb25a },
+  { key: 'freefire', name: 'Free Fire', emoji: '🔥', color: 0xff7a00 },
+  { key: 'amongus', name: 'Among Us', emoji: '🚀', color: 0xc51111 },
+  { key: 'genshin', name: 'Genshin Impact', emoji: '🌌', color: 0x7fd6ff },
+  { key: 'mlbb', name: 'Mobile Legends', emoji: '📱', color: 0x1e90ff },
+  { key: 'fallguys', name: 'Fall Guys', emoji: '👑', color: 0xff69b4 },
+];

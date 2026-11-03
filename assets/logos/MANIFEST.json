@@ -1,0 +1,339 @@
+{
+  "_readme": "Logo manifest. status=provided -> file exists in assets/logos/source/<key>.jpg ; status=missing -> generate an ORIGINAL placeholder icon (never copy official artwork) and mark generated:true. All sources are JPG with solid backgrounds (no real alpha).",
+  "games": [
+    {
+      "key": "fivem",
+      "name": "FiveM",
+      "group": "pc",
+      "accent": "#FF7400",
+      "squadSize": 0,
+      "status": "provided",
+      "file": "assets/logos/source/fivem.jpg",
+      "notes": "orange 700x394 landscape -> crop to centered square (emblem), keep orange tile"
+    },
+    {
+      "key": "gta5",
+      "name": "GTA V",
+      "group": "pc",
+      "accent": "#2ECC71",
+      "squadSize": 4,
+      "status": "provided",
+      "file": "assets/logos/source/gta5.jpg",
+      "notes": "black square with green V (GTA V logo) - use as is"
+    },
+    {
+      "key": "valorant",
+      "name": "Valorant",
+      "group": "pc",
+      "accent": "#FF4655",
+      "squadSize": 5,
+      "status": "provided",
+      "file": "assets/logos/source/valorant.jpg",
+      "notes": "300x300 low-res red tile - fine for 128px, do NOT use in large banners"
+    },
+    {
+      "key": "cs2",
+      "name": "CS2",
+      "group": "pc",
+      "accent": "#DE9B35",
+      "squadSize": 5,
+      "status": "provided",
+      "file": "assets/logos/source/cs2.jpg",
+      "notes": "IMPORTANT: this is the OLD CS:GO logo (black on white, portrait). Crop to content bbox. Replace when a CS2 logo is supplied"
+    },
+    {
+      "key": "cod",
+      "name": "Call of Duty",
+      "group": "pc",
+      "accent": "#E10600",
+      "squadSize": 4,
+      "status": "provided",
+      "file": "assets/logos/source/cod.jpg",
+      "notes": "Call of Duty MOBILE logo (red M on black) - use as is"
+    },
+    {
+      "key": "apex",
+      "name": "Apex Legends",
+      "group": "pc",
+      "accent": "#DA292A",
+      "squadSize": 3,
+      "status": "provided",
+      "file": "assets/logos/source/apex.jpg",
+      "notes": "black/red on white - white tile"
+    },
+    {
+      "key": "overwatch",
+      "name": "Overwatch",
+      "group": "pc",
+      "accent": "#FA9C1E",
+      "squadSize": 5,
+      "status": "provided",
+      "file": "assets/logos/source/overwatch.jpg",
+      "notes": "grey/orange on white - white tile"
+    },
+    {
+      "key": "r6",
+      "name": "Rainbow Six Siege",
+      "group": "pc",
+      "accent": "#4A90D9",
+      "squadSize": 5,
+      "status": "provided",
+      "file": "assets/logos/source/r6.jpg",
+      "notes": "portrait 736x1308 white '6' on black -> crop centered square"
+    },
+    {
+      "key": "rocketleague",
+      "name": "Rocket League",
+      "group": "pc",
+      "accent": "#0078F2",
+      "squadSize": 3,
+      "status": "provided",
+      "file": "assets/logos/source/rocketleague.jpg",
+      "notes": "has blurred photo background; crop to shield + title or accept as-is"
+    },
+    {
+      "key": "lol",
+      "name": "League of Legends",
+      "group": "pc",
+      "accent": "#C8AA6E",
+      "squadSize": 5,
+      "status": "provided",
+      "file": "assets/logos/source/lol.jpg",
+      "notes": "400x400 low-res, dark art bg + gold logo - fine for 128px"
+    },
+    {
+      "key": "eafc",
+      "name": "EA FC",
+      "group": "pc",
+      "accent": "#1FB25A",
+      "squadSize": 0,
+      "status": "provided",
+      "file": "assets/logos/source/eafc.jpg",
+      "notes": "'FC26' year is baked in -> crop to the EA SPORTS badge or FC letters only so it does not age"
+    },
+    {
+      "key": "efootball",
+      "name": "eFootball",
+      "group": "pc",
+      "accent": "#FFE600",
+      "squadSize": 0,
+      "status": "provided",
+      "file": "assets/logos/source/efootball.jpg",
+      "notes": "'27' year is baked in -> crop to the yellow ring emblem only; blue tile"
+    },
+    {
+      "key": "minecraft",
+      "name": "Minecraft",
+      "group": "pc",
+      "accent": "#5CB85C",
+      "squadSize": 0,
+      "status": "provided",
+      "file": "assets/logos/source/minecraft.jpg",
+      "notes": "wide wordmark on white -> white tile, scale to ~85% width"
+    },
+    {
+      "key": "roblox",
+      "name": "Roblox",
+      "group": "pc",
+      "accent": "#335FFF",
+      "squadSize": 0,
+      "status": "provided",
+      "file": "assets/logos/source/roblox.jpg",
+      "notes": "official app-icon style square - perfect as is"
+    },
+    {
+      "key": "fortnite",
+      "name": "Fortnite",
+      "group": "pc",
+      "accent": "#9D4DFF",
+      "squadSize": 4,
+      "status": "provided",
+      "file": "assets/logos/source/fortnite.jpg",
+      "notes": "black on white, portrait 736x1104 -> crop to content bbox, white tile (or invert to white on dark tile)"
+    },
+    {
+      "key": "pubg",
+      "name": "PUBG",
+      "group": "mobile",
+      "accent": "#F2A900",
+      "squadSize": 4,
+      "status": "provided",
+      "file": "assets/logos/source/pubg.jpg",
+      "notes": "FAKE transparency: a grey checkerboard is baked into the JPG. Key out the orange (#F2A900) into an alpha mask, then place on dark tile"
+    },
+    {
+      "key": "freefire",
+      "name": "Free Fire",
+      "group": "mobile",
+      "accent": "#FF7A00",
+      "squadSize": 4,
+      "status": "provided",
+      "file": "assets/logos/source/freefire.jpg",
+      "notes": "white wordmark on black 554x554 - keep black tile"
+    },
+    {
+      "key": "mlbb",
+      "name": "Mobile Legends",
+      "group": "mobile",
+      "accent": "#1E90FF",
+      "squadSize": 5,
+      "status": "missing",
+      "file": null,
+      "notes": null
+    },
+    {
+      "key": "genshin",
+      "name": "Genshin Impact",
+      "group": "mobile",
+      "accent": "#7FD6FF",
+      "squadSize": 4,
+      "status": "missing",
+      "file": null,
+      "notes": null
+    },
+    {
+      "key": "amongus",
+      "name": "Among Us",
+      "group": "mobile",
+      "accent": "#C51111",
+      "squadSize": 10,
+      "status": "missing",
+      "file": null,
+      "notes": null
+    },
+    {
+      "key": "fallguys",
+      "name": "Fall Guys",
+      "group": "mobile",
+      "accent": "#FF69B4",
+      "squadSize": 0,
+      "status": "missing",
+      "file": null,
+      "notes": null
+    },
+    {
+      "key": "stumbleguys",
+      "name": "Stumble Guys",
+      "group": "mobile",
+      "accent": "#F5A623",
+      "squadSize": 0,
+      "status": "missing",
+      "file": null,
+      "notes": null
+    },
+    {
+      "key": "codenames",
+      "name": "Codenames",
+      "group": "board",
+      "accent": "#D32F2F",
+      "squadSize": 0,
+      "status": "missing",
+      "file": null,
+      "notes": null
+    },
+    {
+      "key": "monopoly",
+      "name": "Monopoly",
+      "group": "board",
+      "accent": "#D6001C",
+      "squadSize": 0,
+      "status": "missing",
+      "file": null,
+      "notes": null
+    }
+  ],
+  "party_games_original_icons": [
+    {
+      "key": "criminal",
+      "name": "Criminal",
+      "group": "party",
+      "accent": "#C62828",
+      "subtitle": "Social deduction",
+      "status": "generate-original"
+    },
+    {
+      "key": "loupgarou",
+      "name": "Loup-Garou",
+      "group": "party",
+      "accent": "#5C6BC0",
+      "subtitle": "Werewolf game",
+      "status": "generate-original"
+    },
+    {
+      "key": "spy",
+      "name": "Spy / Undercover",
+      "group": "party",
+      "accent": "#26A69A",
+      "subtitle": "Deception game",
+      "status": "generate-original"
+    },
+    {
+      "key": "chameleon",
+      "name": "Chameleon",
+      "group": "party",
+      "accent": "#43A047",
+      "subtitle": "Bluffing game",
+      "status": "generate-original"
+    },
+    {
+      "key": "blaster",
+      "name": "Blaster",
+      "group": "party",
+      "accent": "#FB8C00",
+      "subtitle": "Bomb game",
+      "status": "generate-original"
+    },
+    {
+      "key": "manipulated",
+      "name": "Manipulated",
+      "group": "party",
+      "accent": "#AB47BC",
+      "subtitle": "Psychological game",
+      "status": "generate-original"
+    },
+    {
+      "key": "truthordare",
+      "name": "Action / Verite",
+      "group": "party",
+      "accent": "#EC407A",
+      "subtitle": "Truth or dare",
+      "status": "generate-original"
+    },
+    {
+      "key": "wouldyourather",
+      "name": "Law Khayarouk",
+      "group": "party",
+      "accent": "#29B6F6",
+      "subtitle": "Would you rather",
+      "status": "generate-original"
+    },
+    {
+      "key": "domino",
+      "name": "Domino",
+      "group": "party",
+      "accent": "#8D6E63",
+      "subtitle": "Traditional game",
+      "status": "generate-original"
+    },
+    {
+      "key": "chess",
+      "name": "Chess",
+      "group": "party",
+      "accent": "#78909C",
+      "subtitle": "Board game",
+      "status": "generate-original"
+    }
+  ],
+  "extra": [
+    {
+      "key": "music",
+      "file": "assets/extra/spotify.jpg",
+      "use": "music voice/info channels (3D Spotify-style icon on green bg, 736x490 -> crop square)"
+    },
+    {
+      "key": "cinema",
+      "file": "assets/extra/netflix.jpg",
+      "use": "cinema / TV channels (3D Netflix-style N icon, white bg, 736x736)"
+    }
+  ]
+}
